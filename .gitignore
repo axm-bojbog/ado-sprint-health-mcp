@@ -1,0 +1,33 @@
+# ── Secrets — NEVER commit these ────────────────────────────────────────────
+.env
+*.env
+.env.*
+!.env.example          # keep the example template
+
+# ── Deploy artefacts ─────────────────────────────────────────────────────────
+*.zip
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
